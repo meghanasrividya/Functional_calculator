@@ -31,14 +31,14 @@ Simply open the index.html file in your preferred web browser to start using the
 
 ## Code Overview
 
-📝 HTML
+### 📝  HTML
 The HTML structure includes a container for the calculator, an input field for the display, and buttons for each calculator function.
 
-🎨 CSS
+### 🎨 CSS
 The CSS file (styles.css) contains custom styles to enhance the calculator's appearance.
 
-💻 JavaScript
+### 💻 JavaScript
 The JavaScript file (script.js) handles button clicks and performs calculations.
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Feel free to submit a Pull Request.
