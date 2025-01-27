@@ -9,7 +9,7 @@ body {
 }
 
 .calculator {
-  background: white;
+  background: rgb(89, 50, 207);
   padding: 20px;
   width: 100%;
   max-width: 360px;
@@ -46,7 +46,7 @@ button:active {
 }
 
 .btn-light {
-  background-color: #f8f9fa;
+  background-color: #bbd819;
   color: #333;
 }
 
