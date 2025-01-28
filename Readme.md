@@ -1,4 +1,4 @@
-# ✨ Responsive Calculator ✨
+# ✨ Precision Calculator ✨
 
 Welcome to the Responsive Calculator project! This calculator is built with HTML, CSS, and JavaScript, utilizing Bootstrap for a sleek and responsive design.
 
