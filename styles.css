@@ -1,53 +1,40 @@
 body {
-  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  background-color: #739204; /* Light background for contrast */
   font-family: 'Roboto', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
 }
 
-.calculator {
-  background: rgb(89, 50, 207);
-  padding: 20px;
-  width: 100%;
-  max-width: 360px;
+.title-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(90deg, #4CAF50, #2196F3); /* Gradient effect */
   border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
 }
-
-#display {
-  height: 60px;
-  font-size: 1.8rem;
-  border: none;
-  border-bottom: 2px solid #ccc;
-  margin-bottom: 10px;
-}
-
-#display:focus {
-  outline: none;
-}
-
 button {
-  height: 60px;
-  font-size: 1.5rem;
-  border: none;
-  transition: all 0.3s;
-  border-radius: 10px;
+  border-radius: 8px; /* Smooth edges */
+  padding: 30px 30px; /* Increased padding for greater height */
+  height: 70px; /* Set a specific height */
+  font-size: 1.2rem; /* Larger font for readability */
+  transition: all 0.2s ease-in-out; /* Smooth transitions for hover effects */
 }
 
 button:hover {
-  transform: scale(1.05);
-}
-
-button:active {
-  transform: scale(0.95);
+  transform: scale(1.05); /* Slight zoom-in effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Elevate the button */
 }
 
 .btn-light {
-  background-color: #bbd819;
+  background-color: #eca9a9;
   color: #333;
+}
+
+.btn-light:hover {
+  background-color: #e0e0e0;
 }
 
 .btn-secondary {
@@ -55,12 +42,66 @@ button:active {
   color: white;
 }
 
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
 .btn-danger {
   background-color: #dc3545;
   color: white;
 }
 
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
 .btn-success {
   background-color: #28a745;
   color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+.calculator {
+  background: rgb(100, 97, 97);
+  border-radius: 15px;
+  padding: 1.5rem;
+  max-width: 360px;
+  width: 100%;
+  height: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+#display {
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: #f9f9f9;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+  padding: 0.5rem;
+}
+body {
+  background: linear-gradient(120deg, #e3f2fd, #ffffff);
+}
+@media (max-width: 576px) {
+  .title-text {
+    font-size: 1.8rem;
+    padding: 0.8rem;
+  }
+
+  .calculator {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+
+  #display {
+    font-size: 1.2rem;
+  }
 }
